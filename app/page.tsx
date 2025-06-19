@@ -34,7 +34,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <div className="hero">
+      <section className="hero">
         <div className="hero-container">
           <div className="hero-content">
             <div className="hero-badge">Начни обучение</div>
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Features Section */}
       <section className="features">
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <div className="about">
+      <section className="about">
         <div className="container">
           <div className="about-content">
             <div className="about-text">
@@ -137,11 +137,16 @@ export default function Home() {
               </p>
             </div>
             <div className="about-image">
-              Картинка с изображением преподавателя, обучающего группу студентов
+              <Image
+                src="/img/teacher.jpeg"
+                alt="О нас"
+                width={500}
+                height={300}
+              />
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Courses Section */}
       <div className="courses">
@@ -149,7 +154,12 @@ export default function Home() {
           <div className="courses-grid">
             <div className="course-card">
               <div className="course-image">
-                Картинка с изображением курса по веб-разработке
+                <Image
+                  src="/img/good-1.jpeg"
+                  alt="О нас"
+                  width={500}
+                  height={300}
+                />
                 <div className="course-badge">Популярно</div>
                 <div className="course-actions">
                   <button className="action-btn">
@@ -188,7 +198,12 @@ export default function Home() {
 
             <div className="course-card">
               <div className="course-image">
-                Картинка с изображением курса по Data Science
+                <Image
+                  src="/img/good-2.jpeg"
+                  alt="О нас"
+                  width={300}
+                  height={400}
+                />
                 <div className="course-badge">Новинка</div>
                 <div className="course-actions">
                   <button className="action-btn">
@@ -229,7 +244,12 @@ export default function Home() {
 
             <div className="course-card">
               <div className="course-image">
-                Картинка с изображением курса по UI/UX дизайну
+                <Image
+                  src="/img/good-3.jpeg"
+                  alt="О нас"
+                  width={500}
+                  height={300}
+                />
                 <div className="course-badge">Хит</div>
                 <div className="course-actions">
                   <button className="action-btn">
