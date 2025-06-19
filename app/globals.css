@@ -198,13 +198,16 @@ body {
 }
 
 .features-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  /* display: flex;
+  flex-wrap: ;
+  gap: 3rem; */
 }
 
 .feature-card {
-  flex: 1;
+  flex: 3;
   background: white;
   padding: 2.5rem;
   border-radius: 15px;

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="education-platform">
       {/* Header */}
-      <div className="header">
+      <header className="header">
         <div className="navbar">
           <div className="logo">
             <h2>LearnHub</h2>
@@ -31,7 +31,7 @@ export default function Home() {
             <button className="join-btn">Присоединиться</button>
           </div>
         </div>
-      </div>
+      </header>
 
       {/* Hero Section */}
       <div className="hero">
