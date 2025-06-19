@@ -1,4 +1,5 @@
 import { Eye, Heart, ShoppingBasket, Star, Users } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -43,8 +44,8 @@ export default function Home() {
               ДОВЕРЯЮТ НАМ
             </h1>
             <p className="hero-description">
-              Каждый день открывает новые возможности для обучения и развития профессиональных
-              навыков.
+              Каждый день открывает новые возможности для обучения и развития
+              профессиональных навыков.
             </p>
             <div className="hero-buttons">
               <button className="cta-primary">Получить предложение</button>
@@ -52,7 +53,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-image">
-            Картинка с изображением студента, обучающегося на ноутбуке
+            <Image src="/img/main.jpeg" alt="dfsd" width={300} height={400} />
             <div className="hero-decorations">
               <div className="decoration-circle decoration-1"></div>
               <div className="decoration-circle decoration-2"></div>
@@ -78,8 +79,8 @@ export default function Home() {
               </div>
               <h3>Экспертное обучение</h3>
               <p>
-                Получите знания от ведущих экспертов индустрии с многолетним опытом работы в своей
-                области.
+                Получите знания от ведущих экспертов индустрии с многолетним
+                опытом работы в своей области.
               </p>
             </div>
 
@@ -96,8 +97,8 @@ export default function Home() {
               </div>
               <h3>Практические курсы</h3>
               <p>
-                Изучайте реальные кейсы и применяйте полученные знания на практике уже во время
-                обучения.
+                Изучайте реальные кейсы и применяйте полученные знания на
+                практике уже во время обучения.
               </p>
             </div>
 
@@ -114,8 +115,8 @@ export default function Home() {
               </div>
               <h3>Персональный подход</h3>
               <p>
-                Индивидуальные планы обучения, адаптированные под ваши цели и текущий уровень
-                знаний.
+                Индивидуальные планы обучения, адаптированные под ваши цели и
+                текущий уровень знаний.
               </p>
             </div>
           </div>
@@ -130,8 +131,9 @@ export default function Home() {
               <div className="section-badge">Практические советы</div>
               <h2>Наши эксперты-преподаватели</h2>
               <p>
-                Мы решаем конфликт между теоретическими знаниями и практическими навыками, объединяя
-                лучшие методики обучения с реальным опытом работы в индустрии.
+                Мы решаем конфликт между теоретическими знаниями и практическими
+                навыками, объединяя лучшие методики обучения с реальным опытом
+                работы в индустрии.
               </p>
             </div>
             <div className="about-image">
@@ -164,7 +166,10 @@ export default function Home() {
               <div className="course-content">
                 <div className="course-category">Веб-разработка</div>
                 <h1 className="course-title">Современная веб-разработка</h1>
-                <p>Изучите современные технологии веб-разработки от основ до продвинутых техник.</p>
+                <p>
+                  Изучите современные технологии веб-разработки от основ до
+                  продвинутых техник.
+                </p>
                 <div className="course-stats">
                   <span className="students">
                     <Users className="icon" /> 1,2К студентов
@@ -199,8 +204,13 @@ export default function Home() {
               </div>
               <div className="course-content">
                 <div className="course-category">Аналитика данных</div>
-                <h1 className="course-title">Data Science и машинное обучение</h1>
-                <p>Станьте экспертом в области анализа данных и машинного обучения.</p>
+                <h1 className="course-title">
+                  Data Science и машинное обучение
+                </h1>
+                <p>
+                  Станьте экспертом в области анализа данных и машинного
+                  обучения.
+                </p>
                 <div className="course-stats">
                   <span className="students">
                     <Users className="icon" /> 856 студентов
@@ -236,7 +246,10 @@ export default function Home() {
               <div className="course-content">
                 <div className="course-category">Дизайн</div>
                 <h1 className="course-title">UI/UX дизайн с нуля</h1>
-                <p>Освойте профессию UI/UX дизайнера и создавайте удобные интерфейсы.</p>
+                <p>
+                  Освойте профессию UI/UX дизайнера и создавайте удобные
+                  интерфейсы.
+                </p>
                 <div className="course-stats">
                   <span className="students">
                     <Users className="icon" /> 2,1К студентов
